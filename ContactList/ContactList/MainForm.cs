@@ -21,5 +21,17 @@ namespace ContactList
         {
 
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+
+        }
+        
+
+        private void btnAddContact_Click_1(object sender, EventArgs e)
+        {
+            AddContactForm form = new AddContactForm();
+            form.ShowDialog();
+        }
     }
 }
